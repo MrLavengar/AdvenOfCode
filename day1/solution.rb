@@ -1,4 +1,5 @@
 # task - https://adventofcode.com/2021/day/1
+# task - https://adventofcode.com/2021/day/1#part2
 #part1
 def depth_increase(arr)
     arr.map!(&:to_i)
