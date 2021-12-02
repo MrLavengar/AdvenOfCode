@@ -2,7 +2,6 @@
 def depth_increase(arr)
     number_of_depth_increase = 0
     for i in 1..arr.length-1
-        
         number_of_depth_increase+=1 if arr[i].to_i>arr[i-1].to_i
     end
     return number_of_depth_increase
